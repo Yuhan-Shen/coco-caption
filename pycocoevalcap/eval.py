@@ -49,7 +49,7 @@ class COCOEvalCap:
             (Meteor(),"METEOR"),
             (Rouge(), "ROUGE_L"),
             (Cider(self.df), "CIDEr"),
-            (Spice(), "SPICE")
+            #(Spice(), "SPICE")
         ]
 
         # =================================================
